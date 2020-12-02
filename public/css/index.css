@@ -1,5 +1,5 @@
 #calc-contain{
-    position: relative;
+    position: center;
     width: 400px;
     border: 2px solid rgba(169, 138, 219, 0.555);
     border-radius: 12px;
@@ -7,7 +7,7 @@
     padding: 20px 20px 100px 20px;
   }
   #agh{
-    position: relative;
+    position: center;
     float: right;
     margin-top: 15px;
   }
@@ -25,7 +25,7 @@
     margin-top: 10px;
   }
   input[type=button]:active {
-    background-color: #dde7dd;
+    background-color: lightblue;
     box-shadow: 0 5px rgb(233, 186, 186);
     transform: translateY(4px);
   }
@@ -35,7 +35,7 @@
   }
   
   input[type = text] {
-    position: relative;
+    position: center;
     display: block;
     width: 90%;
     margin: 5px auto;
@@ -43,3 +43,11 @@
     padding: 10px;
     box-shadow: 4px 0px 12px rgb(255, 239, 239) inset;
   }
+  h2 
+         {
+          text-align: center;
+          margin-top: 10px;
+         }
+         body {
+          background: lightblue ;
+        }       
